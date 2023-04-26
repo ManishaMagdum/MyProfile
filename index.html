@@ -2,31 +2,81 @@
 <html>
     <head>
 <title>Document</title>
+<style>
+    header{ 
+        color: firebrick;
+        background-color: gainsboro;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name{
+    margin-right: 10px;
+    }
+#no{
+    margin-right: 10px; 
+}
+#mail{
+    margin-right: 10px;
+}
+    #home{
+        margin-right: 20px;
+    }
+    #tech{
+        margin-right: 20px;
+    }
+    #edu{
+        margin-right: 20px;
+    }
+    #per{
+        margin-right: 20px;
+    }
+    #frame{
+        margin-right: 20px;
+    }
+    #link{
+        margin-right: 20px;
+    }
+    #google{
+        margin-right: 20px;
+    }
+    #face{
+        margin-right: 20px;
+    }
+    #insta{
+        margin-right: 20px;
+    }
+
+    
+</style>
  <!-- --CDN link -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+ <!--google font family-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
     <body>
         <header>
-            <i class="fa fa-user" aria-hidden="true"></i> <span>Mohit Sharma</span>
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-phone-square" aria-hidden="true"></i> <span>1234567890</span>
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><span>mohitsharma@gmail.com</span>
+            <i class="fa fa-user" aria-hidden="true"></i> <span id="name">Mohit Sharma</span>
+            <i class="fa fa-phone-square" aria-hidden="true"></i> <span id="no">1234567890</span>
+           <i class="fa fa-envelope" aria-hidden="true"></i><span id="mail">mohitsharma@gmail.com</span>
         </header>
         <br>
         <nav>
-            <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-            <a href="techStack.html"target="frame">  TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-            <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-            <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
+            <a href="home.html" target="frame" id="home">HOME</a> 
+            <a href="techStack.html"target="frame" id="tech">  TECHNOLOGY STACK</a> 
+            <a href="education.html" target="frame" id="edu"> EDUCATION </a> 
+            <a href="personal.html" target="frame" id="per"> PERSONAL </a> 
             <a href="contactUs.html" target="frame"> CONTACT ME </a>
+           
         </nav>
 
      
- <br><iframe width="600" height="450" name="frame" src="personal.html"></iframe>
+ <br><iframe width="600" height="450" name="frame" src="home.html"></iframe>
  <br>
- <b>Follow Me:</b>&nbsp;&nbsp;<a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
- &nbsp;&nbsp;<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
- &nbsp;&nbsp;<a href="=https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
- &nbsp;&nbsp;<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
- &nbsp;&nbsp;<i class="fa fa-youtube" aria-hidden="true"></i>
+ <b id="frame">Follow Me:</b><a href="https://in.linkedin.com/" target="_blank" id="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+ <a href="https://www.google.com/" id="google"><i class="fa fa-google" aria-hidden="true"></i></a>
+ <a href="=https://www.instagram.com/" id="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/" target="_blank" id="face"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+ <i class="fa fa-youtube" aria-hidden="true"></i>
     </body>
 </html>

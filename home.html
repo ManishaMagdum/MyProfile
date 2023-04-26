@@ -2,12 +2,48 @@
 <html>
 <head>
     <title>Home</title>
+    <!--google font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto Slab', serif;
+        }
+     .tools{
+       color:black;
+       background-color: cadetblue;
+     }
+     #code{
+        color: rgb(116, 42, 165);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     #version{
+        color: crimson;
+        background-color: darkgray;
+     }
+     body{
+        border: solid black;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+     }
+     ul{
+        list-style-type:circle;
+     }
+
+
+     
+    </style>
 </head>
 <body>
-    <h2>Professional Summary </h2>
+    <h2 class="tools">Career Objectives</h2>
+    <p>To work in an organization where I can learn and grow my skills and help organization growth</p>
+    <h3 class="tools">Professional Summary </h3>
     <ul>
-        <li> Having 1 years of experience in developing Single page Web Application using Angular 8,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
-        <li> Experince on working with version control system-GIT and GitHub</li>
+        <li> Having 1 years of experience in developing Single page Web Application using <span id="code">Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
+        <li id="version"> Experince on working with version control system-GIT and GitHub</li>
         <li> Experince working with JIRA for user stories and bug tracking</li>
         <li> Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
         <li> Working exposure on ID's like VS code and Notepad++</li>
